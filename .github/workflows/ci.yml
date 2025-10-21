@@ -23,4 +23,4 @@ jobs:
         run: npm ci
 
       - name: Запуск тестов
-        run: npm test
+        run: NODE_OPTIONS=--experimental-vm-modules npm test
